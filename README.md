@@ -2,11 +2,9 @@
 This will be my first project, my goal is to create a mountain bike shopping tool. Please see below for more details:
 
 1. Identify your user(s)
-  
   >Individuals shopping for mountain bikes
   
 2. What is the problem you’re solving?
-  
   >It is often difficult to keep track of the different bikes on the market and what bikes you’ve found that will be the best fit for you. My goal is to make mountain bike shopping easier and more accessible to more people.
   
 3. What is the solution?
