@@ -18,6 +18,12 @@ function App() {
     event.preventDefault();
     console.log(inputFields); //eventually this inputFields will be sent to database when submit button is clicked once backend is built
   }
+  function removeFields(index){
+    console.log('invoked')
+    let data = [...inputFields];
+    data.splice(index, 1);
+    setInputFields(data);
+  }
 
   return (
     <div className="App">
@@ -42,7 +48,7 @@ function App() {
                 value={input.model}
                 onChange={(event) => handleFormChange(index, event)}
               />
-              <button type = "button">Remove</button>
+              <button type = "button" onClick={() => removeFields(index)}>Remove</button>
              
             </div>
           );
