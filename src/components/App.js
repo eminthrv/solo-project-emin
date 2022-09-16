@@ -30,7 +30,7 @@ function App() {
       <form onSubmit={submit}> 
       {/* ^^^do i really need the onSubmit here? */}
             <div>
-                <h1>Input Bike Here!</h1>
+                <h1>Input Your Bikes Here!</h1>
             </div>
         {inputFields.map((input, index) => {
           return (
@@ -62,26 +62,5 @@ function App() {
   );
 }
 
-// class App extends Component {
-//     render() {
-//         return (
-//             <div className="App">
-//       <form>
-//         <div>
-//             <h1>Input Bike Here!</h1>
-//           <input
-//             name='brand'
-//             placeholder='Brand'
-//           />
-//           <input
-//             name='model'
-//             placeholder='Model'
-//           />
-//         </div>
-//       </form>
-//     </div>
-//         )
-//     }
-// }
 
 export default App;
